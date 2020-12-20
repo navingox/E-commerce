@@ -1,10 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react';
+import Bottombars from './components/Bottombars';
+import Category from './components/Category'
 function App() {
   return (
-    <div className="App">
-
+    <div>
+        <Category/>
+        <Bottombars />
     </div>
   );
 }
